@@ -1,3 +1,8 @@
+
+# Ignore .bak and .orig Git files 
+*.bak
+*.orig
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
