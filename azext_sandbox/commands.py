@@ -6,5 +6,5 @@
 # pylint: disable=line-too-long
 
 def load_command_table(self, _):
-    with self.command_group('gimme') as g:
-        g.custom_command('tips', 'showtipsurl')
+    with self.command_group('do') as g:
+        g.custom_command('stuff', 'do_stuff')
