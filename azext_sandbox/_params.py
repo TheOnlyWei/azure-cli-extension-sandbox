@@ -9,3 +9,4 @@ import os.path
 def load_arguments(self, _):
     with self.argument_context('do stuff') as c:
         c.argument('foo', help='Optional foo.')
+        c.argument('object_id', help='Object id.')
